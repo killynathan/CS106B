@@ -3,6 +3,8 @@
 #include "gwindow.h" // for GWindow
 #include "simpio.h"  // for getLine
 #include "vector.h"  // for Vector
+#include <fstream>
+#include <string>
 using namespace std;
 
 int main() {
@@ -17,6 +19,17 @@ int main() {
     cout << "If it doesn't run, check that you have installed" << endl;
     cout << "Java JDK properly, as well as C++ and Qt Creator." << endl;
     cout << endl;
+    ifstream in;
+    in.open("testing.txt");
+    if (in.fail()) {
+        cout << "failed" << endl;
+    }
+    string line;
+    while (true) {
+        getLine(in, line);
+        if (in.fail()) break;
+        cout << line << endl;
+    }
 
     GWindow window(300, 200);
     window.setColor("White");
