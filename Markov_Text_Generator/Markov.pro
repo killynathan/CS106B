@@ -62,8 +62,7 @@ win32 {
 
 # include various source .cpp files and header .h files in the build process
 # (student's source code can be put into project root, or src/ subfolder)
-SOURCES += $$PWD/lib/StanfordCPPLib/*.cpp \
-    src/practice2.cpp
+SOURCES += $$PWD/lib/StanfordCPPLib/*.cpp
 SOURCES += $$PWD/lib/StanfordCPPLib/stacktrace/*.cpp
 exists($$PWD/src/*.cpp) {
     SOURCES += $$PWD/src/*.cpp
@@ -75,8 +74,7 @@ exists($$PWD/*.cpp) {
     SOURCES += $$PWD/*.cpp
 }
 
-HEADERS += $$PWD/lib/StanfordCPPLib/*.h \
-    src/practice2.h
+HEADERS += $$PWD/lib/StanfordCPPLib/*.h
 HEADERS += $$PWD/lib/StanfordCPPLib/private/*.h
 HEADERS += $$PWD/lib/StanfordCPPLib/stacktrace/*.h
 exists($$PWD/src/*.h) {
@@ -367,5 +365,4 @@ exists($$PWD/lib/autograder/*.cpp) {
 # END OF FILE (this should be line #365; if not, your .pro has been changed!)
 
 DISTFILES += \
-    res/testing.txt \
-    res/words.txt
+    res/testing.txt
