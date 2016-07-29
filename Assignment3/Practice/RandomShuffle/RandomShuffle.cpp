@@ -7,23 +7,18 @@
 #include <string>
 #include "random.h"
 #include "console.h"
+#include "vector.h"
+#include <math.h>
+#include <ctype.h>
+
+#include "intarray.h"
+#include "buffer.h"
+
 using namespace std;
 
-/* Function: randomShuffle(string input);
- * Usage: cout << randomShuffle("keith") << endl; // Might get htiek
- * =================================================================
- * Returns a random permutation of the given string.
- */
-string randomShuffle(string input);
 
-
-int main() {
-	// TODO: Add your testing code here!
-	cout << "testing";
+/*int main() {
+	
 	return 0;
-}
-
-string randomShuffle(string input) {
-	return "";	
-}
+}*/
 

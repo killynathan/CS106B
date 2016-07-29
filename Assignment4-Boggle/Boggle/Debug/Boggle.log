@@ -1,0 +1,57 @@
+﻿  gboggle.cpp
+c:\users\nathan\downloads\assignment4-vs2008\assignment4-vs2008\boggle\gboggle.cpp(326): error C3861: 'min': identifier not found
+c:\users\nathan\downloads\assignment4-vs2008\assignment4-vs2008\boggle\gboggle.cpp(327): error C3861: 'min': identifier not found
+  Boggle.cpp
+c:\users\nathan\downloads\assignment4-vs2008\assignment4-vs2008\stanfordcpplib\vector.h(648): error C3861: 'max': identifier not found
+  c:\users\nathan\downloads\assignment4-vs2008\assignment4-vs2008\stanfordcpplib\vector.h(647): note: while compiling class template member function 'void Vector<ValueType>::expandCapacity(void)'
+          with
+          [
+              ValueType=Map<std::string,bool>::iterator::NodeMarker
+          ]
+  c:\users\nathan\downloads\assignment4-vs2008\assignment4-vs2008\stanfordcpplib\vector.h(488): note: see reference to function template instantiation 'void Vector<ValueType>::expandCapacity(void)' being compiled
+          with
+          [
+              ValueType=Map<std::string,bool>::iterator::NodeMarker
+          ]
+  c:\users\nathan\downloads\assignment4-vs2008\assignment4-vs2008\stanfordcpplib\stack.h(157): note: while compiling class template member function 'int Stack<Map<ValueType,bool>::iterator::NodeMarker>::size(void) const'
+          with
+          [
+              ValueType=std::string
+          ]
+  c:\users\nathan\downloads\assignment4-vs2008\assignment4-vs2008\stanfordcpplib\stack.h(163): note: see reference to function template instantiation 'int Stack<Map<ValueType,bool>::iterator::NodeMarker>::size(void) const' being compiled
+          with
+          [
+              ValueType=std::string
+          ]
+  c:\users\nathan\downloads\assignment4-vs2008\assignment4-vs2008\stanfordcpplib\stack.h(162): note: while compiling class template member function 'bool Stack<Map<ValueType,bool>::iterator::NodeMarker>::isEmpty(void) const'
+          with
+          [
+              ValueType=std::string
+          ]
+  c:\users\nathan\downloads\assignment4-vs2008\assignment4-vs2008\stanfordcpplib\stack.h(181): note: see reference to function template instantiation 'bool Stack<Map<ValueType,bool>::iterator::NodeMarker>::isEmpty(void) const' being compiled
+          with
+          [
+              ValueType=std::string
+          ]
+  c:\users\nathan\downloads\assignment4-vs2008\assignment4-vs2008\stanfordcpplib\stack.h(147): note: while compiling class template member function 'Stack<Map<ValueType,bool>::iterator::NodeMarker>::Stack(void)'
+          with
+          [
+              ValueType=std::string
+          ]
+  c:\users\nathan\downloads\assignment4-vs2008\assignment4-vs2008\stanfordcpplib\map.h(650): note: see reference to function template instantiation 'Stack<Map<ValueType,bool>::iterator::NodeMarker>::Stack(void)' being compiled
+          with
+          [
+              ValueType=std::string
+          ]
+  c:\users\nathan\downloads\assignment4-vs2008\assignment4-vs2008\stanfordcpplib\map.h(636): note: see reference to class template instantiation 'Stack<Map<ValueType,bool>::iterator::NodeMarker>' being compiled
+          with
+          [
+              ValueType=std::string
+          ]
+  c:\users\nathan\downloads\assignment4-vs2008\assignment4-vs2008\stanfordcpplib\set.h(323): note: see reference to class template instantiation 'Map<ValueType,bool>::iterator' being compiled
+          with
+          [
+              ValueType=std::string
+          ]
+  c:\users\nathan\downloads\assignment4-vs2008\assignment4-vs2008\stanfordcpplib\lexicon.h(241): note: see reference to class template instantiation 'Set<std::string>::iterator' being compiled
+  Generating Code...

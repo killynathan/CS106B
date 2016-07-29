@@ -173,7 +173,19 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
+				RelativePath=".\intarray.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\RandomShuffle.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\StacksArrayBuffer.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\TextEditor.cpp"
 				>
 			</File>
 		</Filter>
@@ -182,6 +194,18 @@
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
+			<File
+				RelativePath=".\buffer.h"
+				>
+			</File>
+			<File
+				RelativePath=".\bufferpriv.h"
+				>
+			</File>
+			<File
+				RelativePath=".\intarray.h"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Resource Files"
