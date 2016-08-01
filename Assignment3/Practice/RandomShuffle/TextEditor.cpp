@@ -8,7 +8,7 @@ using namespace std;
 
 void executeCmd(EditorBuffer &buffer, string cmd);
 
-int main() {
+/*int main() {
 	EditorBuffer buffer;
 	while (true) {
 		string cmd = getLine("*");
@@ -17,7 +17,7 @@ int main() {
 	}
 	return 0;
 
-}
+}*/
 
 void executeCmd(EditorBuffer &buffer, string cmd) {
 	switch (toupper(cmd[0])) {
