@@ -249,7 +249,7 @@ bool onBoard(Grid<char> & gameBoard, string word) {
 	return false;
 }
 
-//use a for loop for this you mongrel
+
 bool wordHere(Grid<char> & gameBoard, Grid<bool> & visited, string word, string curr, int x, int y, int count) {
 	if (word == curr) {
 		highlightCube(x, y, true);
