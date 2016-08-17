@@ -101,21 +101,14 @@ void removeCell(cell * & c, int value) {
 }
 */
 
+void addOne(Vector<int> & arr) {
+	int x = 3;
+	arr.add(x);
+}
+
 int main() {
-	cell * root = new cell;
-	root->value = 50;
-	root->left = root->right = NULL;
-	addCell(root, 20);
-	addCell(root, 70);
-	addCell(root, 1);
-	addCell(root, 35);
-	addCell(root, 60);
-	addCell(root, 100);
-	addCell(root, 120);
-	addCell(root, 80);
-	addCell(root, 55);
-	addCell(root, 65);
-	printTree(root);
-	cout << isBalanced(root);
+	string test = "";
+	//test += 1;
+	cout << test;
 	return 0;
 }
